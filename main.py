@@ -1,7 +1,7 @@
 # BIOLOGY ISLAND
 # Coded by NZ Gorham
 # STARTED: 12/24/25
-# UPDATED: 12/26/25
+# UPDATED: 3/19/25
 
 import random
 
@@ -9,8 +9,15 @@ import random
 # import questions
 
 # Variables
-board = ['B', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'B', 'W', 'B', 'G', 'W', 'W', 'Y', 'B', 'W', 'W', 'W', 'Y', 'R', 'W','E']
+# board = ['B', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'B', 'W', 'B', 'G', 'W', 'W', 'Y', 'B', 'W', 'W', 'W', 'Y', 'R', 'W','E']
 #place = [0,   1,   2,   3,   4,   5,   6,   7,   8,   9,   10,  11,  12,  13,  14,  15,  16,  17,  18,  19,  20,  21, 22]
+board = ['B', 'W', 'W', 'W', 'W', 'W', 
+         'W', 'W', 'B', 'W', 'B', 'G', 'W', 'W', 'Y', 
+         'B', 'W', 'W', 'W', 'Y', 'R', 'W', 
+         'W', 'W', 'G', 'B', 'P', 'B', 'W', 'W', 'W', 'M', 'B', 'R', 'Y', 'W', 'B', 'G', 'Y', 'W', 
+         'W', 'B', 'R', 'M', W', 'G', 
+         'W', 'B', 'G', 'W', 'B', 'W', 'B', 'Y', 'W', 'W',
+         'W', 'B', 'G', 'W', 'W', 'B', 'W', 'Y', 'R', 'W', 'P', 'Y', 'W', 'W', 'W', 'Y', 'R', 'W', 'W', 'M', 'W', 'W', 'B', 'G', 'Y', 'R', 'W', 'W', 'W', 'W', 'W', 'R', 'B', 'M', 'W', 'W', 'W', 'P', 'W', 'W', 'W', 'R', 'Y', 'W', 'E']
 '''
   board info:
     # W = White - no questions
