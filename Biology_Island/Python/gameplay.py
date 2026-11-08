@@ -1,4 +1,11 @@
-def game_play():
+# BIOLOGY ISLAND
+# Coded by NZ Gorham
+# STARTED: 11/4/26
+# UPDATED: 11/4/26
+
+import random
+
+def game_play(human, cpu):
     # Variables
     mainBoard = ['B', 'W', 'W', 'W', 'W', 'W','W', 'W', 'B', 'W', 'B', 'G', 'W', 'W', 'Y',
             'B', 'W', 'W', 'W', 'Y', 'R', 'W',
