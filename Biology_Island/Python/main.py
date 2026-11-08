@@ -5,17 +5,13 @@
 
 import random
 import rules
-import players
 import gameplay
 
-# Lines 171-179, I used Geeks for Geeks to learn how to create a main function in python
+# I used Geeks for Geeks to learn how to create a main function in python
 # Defining main function
 def main():
-    # RULES & BACKGROUNDS
-    rules.rules_and_backgrounds()
-    
-    # PLAYERS
-    x, y = players()
+    # RULES, PLAYERS, & BACKGROUNDS
+    human, cpu = rules.rpb()
     
     # GAME PLAY
     gameplay.game_play(human, cpu)    
